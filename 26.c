@@ -1,0 +1,12 @@
+echo "Enter size(N)"
+read N
+i=1
+sum=0
+echo="Enter the N numbers.."
+while [ $i -le $N ]
+do
+   read num
+   sum=$((sum + num))
+   i=$((i + 1))
+done
+echo "Sum of n numbers is.."$sum
